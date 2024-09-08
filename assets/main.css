@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'XEGOEPUAall';
+	src: local("XEGOEPUAall"), url('/assets/xegoepuaall.ttf') format('truetype');
+}
+
+html {
+	font: 1rem / 1.5 "Segoe UI", "XEGOEPUAall", "Noto Sans CJK SC", system-ui, sans-serif;
+}
+
+:root footer, #content {
+	max-width: 62rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+:root header {
+	text-align: center;
+}
+
+.mw-jump-link {
+	display: none;
+}
+
+.infoBoxIcon {
+	width: 4rem;
+	text-align: center;
+}
+
+.infoBoxContent {
+	display: flex;
+	align-items: center;
+}
+
+a.new {
+	color: #f03;
+}
